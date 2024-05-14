@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|c:\\sourcecode\\testcase\\efcore.arvato\\efcore.arvato\\core\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|solutionrelative:efcore.arvato\\core\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|c:\\sourcecode\\testcase\\efcore.arvato\\efcore.arvato\\core\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|solutionrelative:efcore.arvato\\core\\orders\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|c:\\sourcecode\\testcase\\efcore.arvato\\efcore.arvato\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|solutionrelative:efcore.arvato\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|c:\\sourcecode\\testcase\\efcore.arvato\\efcore.arvato\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|solutionrelative:efcore.arvato\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|c:\\sourcecode\\testcase\\efcore.arvato\\efcore.arvato\\services\\rabbitmq\\rabbitmqservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|solutionrelative:efcore.arvato\\services\\rabbitmq\\rabbitmqservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|c:\\sourcecode\\testcase\\efcore.arvato\\efcore.arvato\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|solutionrelative:efcore.arvato\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|c:\\sourcecode\\testcase\\efcore.arvato\\efcore.arvato\\services\\orders\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E01F678C-3A2B-4F99-9334-C87A8549397D}|EFCore.Arvato\\EFCore.Arvato.csproj|solutionrelative:efcore.arvato\\services\\orders\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 201,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Core\\Auth\\User.cs",
+              "RelativeDocumentMoniker": "EFCore.Arvato\\Core\\Auth\\User.cs",
+              "ToolTip": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Core\\Auth\\User.cs",
+              "RelativeToolTip": "EFCore.Arvato\\Core\\Auth\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:57:33.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Core\\Orders\\Order.cs",
+              "RelativeDocumentMoniker": "EFCore.Arvato\\Core\\Orders\\Order.cs",
+              "ToolTip": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Core\\Orders\\Order.cs",
+              "RelativeToolTip": "EFCore.Arvato\\Core\\Orders\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:29:21.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Program.cs",
+              "RelativeDocumentMoniker": "EFCore.Arvato\\Program.cs",
+              "ToolTip": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Program.cs",
+              "RelativeToolTip": "EFCore.Arvato\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:50:06.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "EFCore.Arvato\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "EFCore.Arvato\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwCsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:48:06.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Services\\Orders\\OrderService.cs",
+              "RelativeDocumentMoniker": "EFCore.Arvato\\Services\\Orders\\OrderService.cs",
+              "ToolTip": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Services\\Orders\\OrderService.cs",
+              "RelativeToolTip": "EFCore.Arvato\\Services\\Orders\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:46:57.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RabbitMqServices.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Services\\RabbitMq\\RabbitMqServices.cs",
+              "RelativeDocumentMoniker": "EFCore.Arvato\\Services\\RabbitMq\\RabbitMqServices.cs",
+              "ToolTip": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Services\\RabbitMq\\RabbitMqServices.cs",
+              "RelativeToolTip": "EFCore.Arvato\\Services\\RabbitMq\\RabbitMqServices.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAEwEcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:22:09.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EFCore.Arvato\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\SourceCode\\TestCase\\EFCore.Arvato\\EFCore.Arvato\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "EFCore.Arvato\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAHoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T03:17:31.54Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

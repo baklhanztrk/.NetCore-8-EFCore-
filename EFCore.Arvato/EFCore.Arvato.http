@@ -1,0 +1,6 @@
+@EFCore.Arvato_HostAddress = http://localhost:5075
+
+GET {{EFCore.Arvato_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
