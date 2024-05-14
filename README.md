@@ -43,7 +43,9 @@ CREATE TABLE [dbo].[OrderComments](
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
 
-# User tablosu için IdentityUser yapısını kullandım.
+# User Tablosu 
+IdentityUser yapısını kullandım.
 
-# ApplicationConfig üzerinden ConnectionString ve RabbitMqConnectionString bilgilerini değiştirebilirsiniz.
+# AppSetting.cs
+ConnectionString ve RabbitMqConnectionString bilgilerini değiştirebilirsiniz.
 
