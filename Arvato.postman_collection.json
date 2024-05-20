@@ -33,7 +33,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:44308/api/Auth/GenerateToken/token",
+					"raw": "https://localhost:44308/api/Order/InsertRabbitMqOrder",
 					"protocol": "https",
 					"host": [
 						"localhost"
