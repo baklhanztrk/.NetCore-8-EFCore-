@@ -49,3 +49,22 @@ IdentityUser yapısını kullandım.
 # AppSetting.cs
 ConnectionString ve RabbitMqConnectionString bilgilerini değiştirebilirsiniz.
 
+
+#RabbitMq QueueItem Collection
+
+"{
+    "accountId": 0,
+    "orderId": 0,
+    "orderNumber": "string",
+    "orderDate": "2024-05-20T11:56:36.511Z",
+    "orderType": "string",
+    "status": "string",
+    "salesChannel": "string",
+    "city": "string",
+    "district": "string",
+    "carrier": "string",
+    "userId": 0,
+    "updatedAt": 0,
+    "createdAt": 0
+  }"
+

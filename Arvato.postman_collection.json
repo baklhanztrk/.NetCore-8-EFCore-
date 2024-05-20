@@ -1,0 +1,234 @@
+{
+	"info": {
+		"_postman_id": "6c501355-2510-4b4d-abcc-3ee0f18e32eb",
+		"name": "Arvato",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10034784",
+		"_collection_link": "https://dark-spaceship-349064.postman.co/workspace/New-Team-Workspace~a8f5316e-010c-4537-8437-2b22dfc16c7a/collection/10034784-6c501355-2510-4b4d-abcc-3ee0f18e32eb?action=share&source=collection_link&creator=10034784"
+	},
+	"item": [
+		{
+			"name": "RabbitMqGetOrderInsertDB",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOrder",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"usernameOrEmail\": \"arvato@gmail.com\",\r\n  \"password\": \"123Asd!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/Auth/GenerateToken/token",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"Auth",
+						"GenerateToken",
+						"token"
+					]
+				},
+				"description": "GenerateToken"
+			},
+			"response": []
+		},
+		{
+			"name": "BulkCreateOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"accountId\": 0,\r\n    \"orderId\": 0,\r\n    \"orderNumber\": \"string\",\r\n    \"orderDate\": \"2024-05-20T12:03:45.554Z\",\r\n    \"orderType\": \"string\",\r\n    \"status\": \"string\",\r\n    \"salesChannel\": \"string\",\r\n    \"city\": \"string\",\r\n    \"district\": \"string\",\r\n    \"carrier\": \"string\",\r\n    \"userId\": 0,\r\n    \"updatedAt\": 0,\r\n    \"createdAt\": 0\r\n  },\r\n  {\r\n    \"accountId\": 0,\r\n    \"orderId\": 0,\r\n    \"orderNumber\": \"string\",\r\n    \"orderDate\": \"2024-05-20T12:03:45.554Z\",\r\n    \"orderType\": \"string\",\r\n    \"status\": \"string\",\r\n    \"salesChannel\": \"string\",\r\n    \"city\": \"string\",\r\n    \"district\": \"string\",\r\n    \"carrier\": \"string\",\r\n    \"userId\": 0,\r\n    \"updatedAt\": 0,\r\n    \"createdAt\": 0\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/Order/BulkCreateOrder",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"Order",
+						"BulkCreateOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOrderComment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"orderId\": 0,\r\n  \"userId\": 0,\r\n  \"comment\": \"string\",\r\n  \"createdAt\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/Order/CreateOrderComment",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"Order",
+						"CreateOrderComment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateOrder",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"accountId\": 0,\r\n  \"orderId\": 0,\r\n  \"orderNumber\": \"string\",\r\n  \"orderDate\": \"2024-05-20T12:06:47.160Z\",\r\n  \"orderType\": \"string\",\r\n  \"status\": \"string\",\r\n  \"salesChannel\": \"string\",\r\n  \"city\": \"string\",\r\n  \"district\": \"string\",\r\n  \"carrier\": \"string\",\r\n  \"userId\": 0,\r\n  \"updatedAt\": 0,\r\n  \"createdAt\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/Order/UpdateOrder",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"Order",
+						"UpdateOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateOrderComment",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"orderId\": 0,\r\n  \"userId\": 0,\r\n  \"comment\": \"string\",\r\n  \"createdAt\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/Order/UpdateOrderComment",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"Order",
+						"UpdateOrderComment"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteOrder",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"accountId\": 0,\r\n  \"orderId\": 0,\r\n  \"orderNumber\": \"string\",\r\n  \"orderDate\": \"2024-05-20T12:09:23.988Z\",\r\n  \"orderType\": \"string\",\r\n  \"status\": \"string\",\r\n  \"salesChannel\": \"string\",\r\n  \"city\": \"string\",\r\n  \"district\": \"string\",\r\n  \"carrier\": \"string\",\r\n  \"userId\": 0,\r\n  \"updatedAt\": 0,\r\n  \"createdAt\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/Order/DeleteOrder",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"Order",
+						"DeleteOrder"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"orderId\": 0,\r\n  \"userId\": 0,\r\n  \"comment\": \"string\",\r\n  \"createdAt\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44308/api/Order/DeleteOrderComment",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44308",
+					"path": [
+						"api",
+						"Order",
+						"DeleteOrderComment"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
