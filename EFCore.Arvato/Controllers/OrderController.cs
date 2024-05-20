@@ -150,7 +150,7 @@ namespace EFCore.Arvato.Controllers
             return Ok(new { Message = "Başarılı" });
         }
 
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> UpdateOrder(ViewOrder request)
         {
             if (request is null) return BadRequest(new { Message = "İstek boş atılamaz." });
@@ -183,7 +183,7 @@ namespace EFCore.Arvato.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPut]
         public async Task<IActionResult> UpdateOrderComment(ViewOrderComment request)
         {
             if (request is null) return BadRequest(new { Message = "İstek boş atılamaz." });
@@ -210,7 +210,7 @@ namespace EFCore.Arvato.Controllers
 
            
 
-        [HttpPost]
+        [HttpDelete]
         public async Task<IActionResult> DeleteOrder(ViewOrder request)
         {
             if (request is null) return BadRequest(new { Message = "İstek boş atılamaz." });
@@ -228,7 +228,7 @@ namespace EFCore.Arvato.Controllers
             return Ok(new { Message = "Sipariş Başarıyla Silindi." });
         }
 
-        [HttpPost]
+        [HttpDelete]
         public async Task<IActionResult> DeleteOrderComment(ViewOrderComment request)
         {
             if (request is null) return BadRequest(new { Message = "İstek boş atılamaz." });
